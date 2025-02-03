@@ -1,0 +1,6 @@
+# ignore all directories with the name test
+test/
+
+template_conf20\*/
+*/srcs/__pycache__
+
