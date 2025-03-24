@@ -9,7 +9,7 @@ Our work introduces **the first sequential SVM classifiers** tailored for PE, ac
 
 ## 📝 Paper
 This work has been accepted at **ISCAS 2025**:  
-📄 **[Compact Yet Highly Accurate Printed Classifiers Using Sequential Support Vector Machine Circuits](link_to_paper)**  
+📄 **[Compact Yet Highly Accurate Printed Classifiers Using Sequential Support Vector Machine Circuits](docs/2502.01498v1.pdf)**  
 
 ## 🔥 Key Features
 ✅ **First Sequential SVMs for PE** – A novel approach for resource-constrained printed ML classification.  
@@ -21,7 +21,7 @@ This work has been accepted at **ISCAS 2025**:
 <img src="docs/sequential_svm-idx.png" alt="Architecture Overview" width="800">
 
 ## 📖 Cite Us
-<!-- If you found this work useful, please cite:
+If you found this work useful, please cite:
 
 ```bibtex
 @INPROCEEDINGS{SequentialSVMs:ISCAS2025,
@@ -31,5 +31,6 @@ This work has been accepted at **ISCAS 2025**:
   year={2025},
   volume={},
   number={},
-  pages={},
-  doi={DOI_PLACEHOLDER}} -->
+  pages={}}
+  <!-- doi={DOI_PLACEHOLDER}} --> 
+```
