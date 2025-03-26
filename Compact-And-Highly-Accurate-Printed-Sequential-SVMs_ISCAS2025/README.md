@@ -20,6 +20,10 @@ This work has been accepted at **ISCAS 2025**:
 ## 🏛️ Architecture Overview
 <img src="docs/sequential_svm-idx.png" alt="Architecture Overview" width="800">
 
+
+> **Note:** The designs in the `FinalDesigns` folder are improved versions of those originally presented in our paper, incorporating refinements based on feedback and further development.
+
+
 ## 📖 Cite Us
 If you found this work useful, please cite:
 

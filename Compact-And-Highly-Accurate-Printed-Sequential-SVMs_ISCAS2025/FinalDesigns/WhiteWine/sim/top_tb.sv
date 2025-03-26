@@ -3,8 +3,8 @@ module top_tb;
 
 parameter num_feats =11;
 parameter feature_bits=4;
-parameter biasWidth= 5;
-parameter w_width = 5;
+parameter biasWidth= 6;
+parameter w_width = 6;
 parameter inputWidth = 4;
 `define NULL 0
 localparam period = 20;
@@ -54,8 +54,8 @@ begin
 		@(negedge clk) rst_n=1'b1;
 	end
 	accuracy= (correct*100)/count;
-	$display($time, " Accuracy %f", accuracy);
-	$fwrite(f,"%f \n",accuracy);
+	$display($time, " Accuracy %0f", accuracy);
+	$fwrite(f,"%0f \n",accuracy);
 	$display($time, " << Finishing the Simulation >>");
 	$fclose(in);
 	$fclose(f);

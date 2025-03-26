@@ -54,8 +54,8 @@ begin
 		@(negedge clk) rst_n=1'b1;
 	end
 	accuracy= (correct*100)/count;
-	$display($time, " Accuracy %f", accuracy);
-	$fwrite(f,"%f \n",accuracy);
+	$display($time, " Accuracy %0f", accuracy);
+	$fwrite(f,"%0f \n",accuracy);
 	$display($time, " << Finishing the Simulation >>");
 	$fclose(in);
 	$fclose(f);
